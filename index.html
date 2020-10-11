@@ -10,7 +10,7 @@
     <script src="js/scripts.js"></script>
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</style>    
+     #mc_embed_signup{background: orange; clear:right; text-align: center; font:14px Helvetica,Arial,sans-serif; }</style>    
     <title>Delani Studio</title>
  </head>
  <body>
@@ -170,34 +170,19 @@
         </div>
       </div>
 
-      <h4>CONTACT US</h4>
-      <div class="contacts">
-        <form method="post">
-          <div class="row">
-            <br><br>
-            <div class="col-md-2 form-group">
-              <input type="text" id="name" name="name" placeholder="Name..." value="">
-            </div>
-            <div class="col-md-2 form-group">
-              <input type="email" id="email" name="Email" placeholder="Email... "value="">
-            </div>
-          </div>
-          <div class="form-group">
-            <textarea name="message" type="text" id="message" rows="8" cols="80" placeholder="Your message here...">
-            </textarea>
-              <input type="submit" id="submit" name="submit" value="submit">
-          </div>
-            </form>
-      </div>
-
+    
+      <form id="frm1">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br><br>
+        <textarea name="" id="message" cols="30" rows="5" placeholder="Enter Message" required></textarea><br>
+        <input type="button" onclick="myFunction()" value="Submit">
+      </form>
+    
       <div class="Footer" id="socialMediaIcons">
         <br><br>
         <img src="./images/twitter.png" alt="Twitter icon">
-        <!--Dribbble-->
         <img src="./images/dribble.png" alt="Dribble icon"><i class="fab fa-lg fa-dribbble"></i></a>
-         <!--Facebook-->
         <img src="./images/facebook.png" alt="Facebook icon">><i class="fab fa-lg fa-facebook-f"></i></a>
-        <!--Google -->
         <img src="images/g_plus.png" alt="Google_plus icon"><i class="fab fa-lg fa-google-plus-g"></i></a>
         <!--Skype-->
         <img src="images/skype.png" alt="Skype icon"><i class="fab fa-lg fa-skype"></i></a>
@@ -214,9 +199,7 @@
 
       <!-- Begin Mailchimp Signup Form -->
       
-      in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
+  </style>
 <div id="mc_embed_signup">
 <form action="https://gmail.us2.list-manage.com/subscribe/post?u=d66911770eea410273c65b14f&amp;id=60ef630c2c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
