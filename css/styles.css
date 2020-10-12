@@ -1,0 +1,207 @@
+.mainPage {
+  background-image: url("../images/first.jpg");
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.services {
+  background-image: url("../images/other.jpg");
+  color: white;
+}
+
+.row{
+  background-image: url("../images/contacts.jpg");
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  size: 50px;;
+}
+
+#mouse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  size: 50px;;
+}
+
+h1 {
+  text-align: center;
+  color: coral;
+}
+
+
+
+.center {
+  text-align: center;
+  color: aliceblue;
+}
+
+.about, .services {
+  text-align: center;
+}
+
+
+.management, .development, .design {
+  display: contents;
+  float: left;
+  width: 33.33%;
+}
+
+.work4, .work2, .work3, .work1 {
+  float: left;
+  width: 200px;
+}
+
+.work5, .work6, .work7, .work8 {
+  float: left;
+  width: 200px;
+}
+
+
+#hide1{
+  display: none;
+}
+#hide2 {
+  display: none;
+}
+#hide3{
+  display: none;
+}
+
+#port{
+  text-align: center;
+}
+.col-md-3 {
+padding: 6px;
+}
+.whatWeDo {
+  display: flex;
+  margin: 50px;
+}
+.do {
+  text-align: center;
+  margin-top: 30px;
+  text-align: center;
+}
+.form {
+  background-image: url("images/c_image.jpg");
+  background-size: cover;
+  text-align: center;
+  width: 1400px;
+  display: block;
+  margin: auto;
+  padding: 70px;
+}
+.col-sm-form-group{
+  display: inline-block;
+  color: white;
+  margin: 20px;
+}
+#name, #email, #message, #sub{
+  background-color: transparent;
+  color: white;
+}
+.media {
+  position: absolute;
+  left: 28%;
+  margin: 10px;
+  padding: 10px;
+}
+li {
+  list-style: none;
+  margin: 10px 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 1;
+}
+
+
+.text {
+  text-align: center;
+  padding-top: 85px;
+  margin: 10px;
+}
+
+.weather .pyramids .ontario .black .chat .mobile .burned .giraffe {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: inherit;
+
+}
+
+.weather:hover .overlay {
+  opacity: 1;
+}
+.pyramids:hover .overlay {
+  opacity: 1;
+}
+.ontario:hover .overlay {
+  opacity: 1;
+}
+.black:hover .overlay {
+  opacity: 1;
+}
+.chat:hover .overlay {
+  opacity: 1;
+}
+.mobile:hover .overlay {
+  opacity: 1;
+}
+.burned:hover .overlay {
+  opacity: 1;
+}
+.giraffe:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.footer {
+  align-items: center;
+}
+
+#mc_embed_signup {
+  float: left;
+  width: 50%;
+}
+
+#frm1 {
+  float: left;
+  width: 50%;
+}
+
+.row6 {
+  text-align: center;
+}
