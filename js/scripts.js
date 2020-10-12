@@ -1,21 +1,20 @@
-$(document).ready(function() {
-  $(".clickable1").click(function() {
-    $("#hide1").slideToggle(1200);
-    $("#show1").slideToggle(1500);
-  });
-});
+$(document).ready(function () {
+  $(".design-image").click(function() {
+    $(".design-content").slideToggle();
+  })
+})
 
 $(document).ready(function() {
-  $(".clickable2").click(function() {
-    $("#hide2").slideToggle(1200);
-    $("#show2").slideToggle(1500);
+  $(".clickable").click(function() {
+    $("#hide2").toggle();
+    $("#show2").toggle();
   });
 });
 
   $(document).ready(function() {
-  $(".clickable3").click(function() {
-    $("#hide3").slideToggle(1200);
-    $("#show3").slideToggle(1500);
+  $(".clickable").click(function() {
+    $("#hide3").toggle();
+    $("#show3").toggle();
   });
 });
 
