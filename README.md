@@ -5,6 +5,7 @@
 This is an application for delani_studio website. The website is responsive and uses different features to cater for needs of a user.
 ## Setup/Installation Requirements
 * copy and paste link provided to go to the website page.
+## Website link:https://oscargichana.github.io/delani_studio
 ## Technologies Used
 Html, Js , css was used to develop the website
 ## Support and contact details
